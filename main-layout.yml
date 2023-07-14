@@ -1,0 +1,54 @@
+points:
+  zones:
+    mousemode:
+      anchor:
+        rotate: 0
+        shift: [94, -5]
+    pinkygroup:
+      anchor:
+        rotate: 10
+        shift: [-22, 16]
+      columns:
+        pinky:
+      rows:
+        top:
+        bottom:
+    matrix:
+      anchor:
+        rotate: 10
+      columns:
+        pinky:
+        ring:
+          key.origin: [-12, -19]
+          key.stagger: 8
+          key.splay: -4
+        middle:
+          key.stagger: 2
+          key.splay: -4
+        index:
+          key.stagger: -2
+          key.splay: -4
+        inner:
+          key.stagger: -8                     
+      rows:
+        bottom:
+        home:
+        top:
+    thumbgroup:
+      anchor:
+        ref: matrix_inner_bottom
+        shift: [-32, -32]
+      columns:
+        inner:
+          key.splay: -22
+        home:
+          key.splay: -4
+        outer:
+          key.splay: -4
+        far:
+          key.splay: -4
+      rows:
+        upper:
+        lower:
+  rotate: -20
+outlines:
